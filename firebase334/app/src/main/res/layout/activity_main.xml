@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/FirstName"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="First Name"
+        />
+    <EditText
+        android:id="@+id/LastName"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Last Name"
+        />
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        />
+
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+
+</LinearLayout>
